@@ -17,4 +17,11 @@ Targets:
         Path: ApplicationEvents.tkape
         IsDirectory: false
         Recursive: false
-        Comment: "Contains RealVNC entries, event source: VNC Server"
+        Comment: "Contains RealVNC entries, event source: VNC Server. Also contains UltraVNC entries."
+    -
+        Name: UltraVNC Log
+        Category: ApplicationLogs
+        Path: C:\Program Files*\UltraVNC\mslogon.log
+        IsDirectory: false
+        Recursive: false
+        Comment: "Contains UltraVNC log entries"
