@@ -1,0 +1,13 @@
+Description: Cylance Logs
+Author: Scott Hanson
+Version: 1.0
+Id: 4ca5a0d8-1913-4567-a30a-1f25edbbcab7
+RecreateDirectories: true
+Targets:
+    -
+        Name: Cylance Logs
+        Category: Antivirus
+        Path: C:\Program Files*\Cylance\Desktop\log
+        IsDirectory: true
+        Recursive: true
+        Comment: ""
